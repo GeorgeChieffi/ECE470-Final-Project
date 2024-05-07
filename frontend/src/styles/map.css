@@ -1,0 +1,46 @@
+html,
+body,
+#root{
+    height: 100%;
+    width: auto;
+    margin: 8px;
+    padding: 0px;
+    background-color: grey;
+}
+
+.mapContainer{
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 60%;
+    position: relative;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+
+.centerMe{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.formContainer{
+    position: relative;
+}
+
+.usersContainer{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin: 0 auto;
+    width: auto;
+    background-color: white;
+}
+
+.user{
+    border: 1px black solid;
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+}
